@@ -21,23 +21,28 @@
         <header>
             <nav class="navbar fixed-top navbar-expand-sm navbar-dark" style="background-color: #483D8B;">
                 <div class="container-fluid">
-                    <span class="navbar-brand mb-0 h1">Cursos de Informática</span>
+                    <span class="navbar-brand mb-0 h1">PUC CAMPINAS</span>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav position-absolute top-0 end-0">
                             <li class="nav-item">
                             <a class="nav-link active" aria-current="home-menu" href="/">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/">Alunos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/">Professores</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link" href="/">Cursos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Area Logada
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Alunos</a></li>
+                                <li><a class="dropdown-item" href="#">Professores</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Secretaria</a></li>
+                            </ul>
                             </li>
                         </ul>
                     </div>
